@@ -1,0 +1,48 @@
+// Ejercicio inicial
+
+// resultado de 1+2
+var uno = 1;
+var dos = 2;
+var uno_mas_dos = uno + dos;
+console.log(uno_mas_dos);
+
+// division de 6/2
+var seis = 6;
+var seis_dividido_dos = seis / dos;
+console.log(seis_dividido_dos);
+
+// precio de 20 euros +iva
+var precio_20_mas_iva = ((20 / 100) * 21) + 20;
+console.log(precio_20_mas_iva);
+
+// sumar 1 a 4
+var cuatro_mas_uno = 4;
+cuatro_mas_uno++;
+console.log(cuatro_mas_uno);
+
+//sumar dos textos
+var sumar_dos_textos = ('hola' + ' ' + 'java!');
+console.log(sumar_dos_textos);
+
+// valor sin iva
+var sin_iva = (19.99 / 1.21) * 100;
+console.log(sin_iva);
+
+// asignar valores booleanos
+var verdad = true;
+var falso = false;
+console.log(verdad);
+console.log(falso);
+
+// operacion and
+var resultado_falso_and = verdad && falso;
+var resultado_verdad_and = verdad && verdad;
+console.log(resultado_falso_and);
+console.log(resultado_verdad_and);
+
+// operacion or
+
+var resultado_verdad_or = verdad || falso;
+var resultado_falso_or = falso || falso;
+console.log(resultado_verdad_or);
+console.log(resultado_falso_or);
